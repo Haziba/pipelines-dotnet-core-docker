@@ -6,6 +6,7 @@ pool:
 
 variables:
   imageName: 'pipelines-dotnet-core-docker'
+  dockerHub: 'Green Slate Prod Images Connection'
 
 steps:
 - task: Docker@2
